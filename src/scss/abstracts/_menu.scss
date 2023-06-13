@@ -1,0 +1,25 @@
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem .8rem;
+    margin: 1rem .8rem;
+    font-size: 1.2rem;
+    background-color: rgba($color: #D3D3D3, $alpha: 0.1);
+    border-radius: 10px;
+    li:first-child{
+        font-weight: bold;
+        span{
+            color: #F47D2E;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu{
+        padding: .8rem;
+        margin: .8rem;
+        font-size: .8rem;
+    }
+}

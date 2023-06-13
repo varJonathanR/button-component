@@ -1,0 +1,23 @@
+.colored{
+    padding: 2rem;
+}
+
+.color-container{
+    display: flex;
+    flex-wrap: wrap;
+    .flex{
+        flex-direction: column;
+        .primary{
+            color: #FFFFFF;
+            background-color: #1565c0;
+        }
+        .secondary{
+            color: #FFFFFF;
+            background-color: #616161;
+        }
+        .danger{
+            color: #FFFFFF;
+            background-color: #BF2C34;
+        }
+    }
+}

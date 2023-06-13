@@ -1,0 +1,20 @@
+.all{
+    padding: 2rem;
+    .outline-hover{
+        color: #FFFFFF;
+        background-color: var(--lightblue);
+    }
+    .text{
+        border: none;
+        background-color: transparent;
+        color: var(--lightblue);
+        &:hover{
+            transition: .5s;
+            background-color: rgba($color: #3D5AFE, $alpha: 0.2);
+        }
+        &-hover{
+            color: var(--lightblue);
+            background-color: rgba($color: #3D5AFE, $alpha: 0.2);
+        }
+    }
+}

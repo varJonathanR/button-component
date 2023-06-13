@@ -1,0 +1,27 @@
+html, body{
+    font-family: var(--font-poppins);
+    color: var(--primary-color);
+}
+
+a{
+    color: var(--primary-color);
+    &:hover{
+        transition: .5s;
+        color: #000000;
+    }
+}
+
+button{
+    background-color: var(--secondary-color);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    &:hover{
+        transition: .5s;
+        background-color: var(--tertiary-color);
+    }
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

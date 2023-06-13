@@ -1,29 +1,44 @@
 import React from 'react'
 import './App.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import All from './Routes/All';
+import Colors from './Routes/Colors';
+import Size from './Routes/Size';
+import Icon from './Routes/Icon';
+import Error from './Routes/Error';
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <h1>Home</h1>,
-      errorElement: <h1>Error</h1>
+      element: <All />,
+      errorElement: <Error />,
+      /* children: [
+        {
+          path: "contact/:contactid",
+          element: <h3>Contact</h3>
+        }
+      ] */
     },
     {
-      path: '/about',
-      element: <h1>About</h1>,
+      path: '/colors',
+      element: <Colors />
     },
     {
-      path: '/contact',
-      element: <h1>Contact</h1>,
+      path: '/size',
+      element: <Size />
+    },
+    {
+      path: '/icon',
+      element: <Icon />
     }
   ]);
 
   return (
-    <>
+    <div>
       <RouterProvider router={router} />
-    </>
+    </div>
   )
 }
 

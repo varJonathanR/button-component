@@ -1,0 +1,26 @@
+.button-container{
+    padding: 1rem;
+    p{
+        font-size: .8rem;
+        color: #000000;
+        margin-bottom: .8rem;
+    }
+    .hover{
+        background-color: var(--tertiary-color);
+    }
+    /* .outline{
+        color: var(--lightblue);
+        background: transparent;
+        border: 1px solid var(--lightblue);
+        &:hover{
+            transition: .5s;
+            background-color: rgba($color: #3D5AFE, $alpha: 0.1);
+        }
+        &-hover{
+            color: var(--lightblue);
+            background: transparent;
+            border: 1px solid var(--lightblue);
+            background-color: rgba($color: #3D5AFE, $alpha: 0.1);
+        }
+    } */
+}
