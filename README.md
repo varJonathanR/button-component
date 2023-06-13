@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Button Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -75,6 +75,7 @@ $ npm start
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
+- [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [SCSS](https://sass-lang.com/)
 - [React Router](https://reactrouter.com/en/main)
